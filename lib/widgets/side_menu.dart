@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors, no_leading_underscores_for_local_identifiers
+// ignore_for_file: prefer_const_constructors, no_leading_underscores_for_local_identifiers, empty_statements
 
 import 'package:aplicacao_flutter_web/helpers/responsiveness.dart';
 import 'package:aplicacao_flutter_web/routing/routes.dart';

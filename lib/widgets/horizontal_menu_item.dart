@@ -1,4 +1,4 @@
-// ignore_for_file: sort_child_properties_last, prefer_const_constructors
+// ignore_for_file: sort_child_properties_last, prefer_const_constructors, no_leading_underscores_for_local_identifiers
 
 import 'package:aplicacao_flutter_web/constantes/style.dart';
 import 'package:flutter/material.dart';
@@ -52,7 +52,7 @@ class HorizontalMenuItem extends StatelessWidget {
                     child: CustomText(
                   text: itemName,
                   color: menuController.isHovering(itemName) ? dark : lightGrey,
-                  size: 30,
+                  size: 20,
                   weight: FontWeight.bold,
                 ))
               else
